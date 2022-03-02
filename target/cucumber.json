@@ -1,0 +1,166 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page.",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7873249700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hotelBooking.precondition_hotelBooking()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Failure in hotel Booking on incorrect mobileNo format",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-incorrect-mobileno-format;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3138114000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "hotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.runner.AmbiguousStepDefinitionsException: \"user enters incorrect 9391187070 format and clicks the button\" matches more than one step definition:\n  \"^user enters incorrect (\\d+) format and clicks the button$\" in hotelBooking.user_enters_incorrect_format_and_clicks_the_button(String)\n  \"user enters (.*)\" in hotelBooking.user_enters(String)\n\r\n\tat cucumber.runner.Glue.stepDefinitionMatch(Glue.java:87)\r\n\tat cucumber.runner.Runner.addTestStepsForPickleSteps(Runner.java:64)\r\n\tat cucumber.runner.Runner.createTestCaseForPickle(Runner.java:54)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:39)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "duration": 1141300,
+              "status": "ambiguous"
+            },
+            "line": 52,
+            "name": "user enters incorrect 9391187070 format and clicks the button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15500,
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "display alert msg",
+            "match": {
+              "location": "hotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          },
+          {
+            "name": "@checkmobile"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page.",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7175496200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hotelBooking.precondition_hotelBooking()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Failure in hotel Booking on incorrect mobileNo format",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-incorrect-mobileno-format;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3138379900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "hotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.runner.AmbiguousStepDefinitionsException: \"user enters incorrect 9999999990 format and clicks the button\" matches more than one step definition:\n  \"^user enters incorrect (\\d+) format and clicks the button$\" in hotelBooking.user_enters_incorrect_format_and_clicks_the_button(String)\n  \"user enters (.*)\" in hotelBooking.user_enters(String)\n\r\n\tat cucumber.runner.Glue.stepDefinitionMatch(Glue.java:87)\r\n\tat cucumber.runner.Runner.addTestStepsForPickleSteps(Runner.java:64)\r\n\tat cucumber.runner.Runner.createTestCaseForPickle(Runner.java:54)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:39)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "duration": 64100,
+              "status": "ambiguous"
+            },
+            "line": 52,
+            "name": "user enters incorrect 9999999990 format and clicks the button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12200,
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "display alert msg",
+            "match": {
+              "location": "hotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          },
+          {
+            "name": "@checkmobile"
+          }
+        ]
+      }
+    ],
+    "name": "HotelBooking",
+    "description": "",
+    "id": "hotelbooking",
+    "keyword": "Feature",
+    "uri": "Feature/login.feature",
+    "tags": [
+      {
+        "name": "@HotelBooking",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
